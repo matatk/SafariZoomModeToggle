@@ -52,7 +52,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>appPath</key>
-					<string>~/projects/SafariZoomModeToggle/Safari Zoom Mode Toggle.app</string>
+					<string>Safari Zoom Mode Toggle.app</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.OpenApplication</string>
