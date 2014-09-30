@@ -9,6 +9,7 @@ on assistive_access_check()
 end assistive_access_check
 
 on enable_assistive_access()
+	-- Thanks to https://gist.github.com/iloveitaly/2ff08138091afd69cf2b
 	set scriptRunner to name of current application
 	display alert "GUI Scripting is not enabled for " & scriptRunner & "." message "Open System Preferences, unlock the Security & Privacy preference, select " & scriptRunner & " in the Privacy Pane's Accessibility list, and then run this script again." buttons {"Open System Preferences", "Cancel"} default button "Cancel"
 	if button returned of result is "Open System Preferences" then
