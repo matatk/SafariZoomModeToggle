@@ -2,7 +2,7 @@ on assistive_access_check()
 	tell application "System Events"
 		if not (UI elements enabled) then
 			return false
-		else
+			else
 			return true
 		end if
 	end tell
@@ -42,10 +42,10 @@ on main()
 			tell application "Safari" to activate
 			if text_zoom then
 				say "Text-only zoom"
-			else
+				else
 				say "Full-page zoom"
 			end if
-		else
+			else
 			enable_assistive_access()
 		end if
 	end if
