@@ -7,8 +7,15 @@ between full-page and text-only zoom modes in Safari.
 Installation
 ------------
 
-1.  Download the [latest release](fixme).
-2.  ***FIXME***
+1.  Download the [latest
+    release](https://github.com/matatk/SafariZoomModeToggle/releases/latest)'s
+    Zip file.
+2.  Unzip the Zip file; you will have a folder containing an Application
+    and a Service, which must be dragged to your personal Services
+    folder in order for OS X to recognise them. A link to your personal
+    Services folder is also provided in the Zip file, named
+    "my-services-folder", so you can drag the Application and Service
+    onto that link, and then remove the Zip file and unzipped folder.
 3.  Visit System Preferences \> Keyboard \> Shortcuts \> Services and
     assign a shortcut key combination to the "Safari Zoom Mode Toggle"
     service (under "General" at the bottom of the list).
