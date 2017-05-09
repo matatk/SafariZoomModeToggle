@@ -1,6 +1,10 @@
 Safari Zoom Mode Toggle
 =======================
 
+**No longer under development:** In Safari 10, the "Zoom Text Only" menu option has gone, but it is possible to zoom the text size only (as opposed to the whole page) using the keyboard shortcut <kbd>Command</kbd>+<kbd>Option</kbd>+<kbd>+</kbd>/<kbd>-</kbd>.
+
+- - -
+
 An OS X "Service" (to which you can assign a shortcut key) to switch
 between full-page and text-only zoom modes in Safari.
 
@@ -20,9 +24,7 @@ Installation
 Usage
 -----
 
-Press the shortcut key combination. If the display is on Standard
-rotation, it will be toggled to 90-degree rotation; if the display is on
-90-degree rotation, it will be toggled to Standard rotation.
+Press the shortcut key combination. Safari's Zoom Mode (text-only or full-page) will be toggled and the new mode announced by speech.
 
 **Note:** the first time you use this (or a new version), it needs to be
 granted access to GUI scripting (so that it can access and activate
